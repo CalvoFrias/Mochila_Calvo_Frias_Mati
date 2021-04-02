@@ -9,6 +9,7 @@
 ### Indicar mi usuario para el repositorio
 
 >git config user.name “mi usuario”
+
 >git config user.email “miCorreo@email.com”
 
 Con git config *--global* user.name podemos configurar el usuario para todo git. Lo mismo con user.email para el correo.
@@ -20,12 +21,15 @@ Con git config *--global* user.name podemos configurar el usuario para todo git.
 Puedo chequear si están bien conectados con **git remote -v**. Debería devolverme:
 
 >origin - https:// ... / (fetch)
+
 >origin - https:// ... / (push)
 
 ## Subir archivos
 
 >git add .
+
 >git commit -m 'mensaje'
+
 >**git push origin main/master**
 
 ## Bajar archivos
